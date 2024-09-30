@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker'
 import { getRandomSkills } from './skillsData.mjs'
 
-export const users = Array.from({ length: 100 }, () => {
+export const users = Array.from({ length: 10000 }, () => {
   return {
     person: {
       first: faker.person.firstName(),
